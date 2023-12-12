@@ -3,3 +3,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: false
+
+
+title: <your title>
