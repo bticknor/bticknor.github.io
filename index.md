@@ -1,6 +1,8 @@
 # Benjamin Ticknor
 
-## Welcome to my website 
+## Welcome to my website!
 
-[Blog](blog/index.md)
+This website is very recently created and is under construction...
+
+## [Blog](blog/index.md)
 
