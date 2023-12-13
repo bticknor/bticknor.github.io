@@ -1,4 +1,4 @@
-# Convergence in Probability vs. Almost Sure Convergence - A Visual Explanation
+# Visualizing Weak vs. Almost Sure Convergence
 
 By definition, a sequence of random variables $X_n$ converges to $X$ in probability if:
 
@@ -55,5 +55,5 @@ Even though the sequence finds $u$ less and less frequently, each scan that it m
 We can visualize what $X_n$ is doing in relation to $U$ by building a table (of sorts) with elements of $X_n$ as the rows and possible values of $U$ as the "columns."  Since $U$ takes an uncountable number of values, the "column" values for each row will just be the unit interval.  On each of these  intervals we highlight in red the region for which $X_n$ "finds" $U$, which is the region where $X_n \neq U$ and thus $X_n - U = 1$. This visualization nicely illustrates $X_n$'s behavior of continuously "scanning" across the unit interval with a progressively smaller window.  
 
 
-
+![image info](./rv_img1.png)
 
