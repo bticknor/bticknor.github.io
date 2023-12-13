@@ -1,3 +1,10 @@
+# MathJax Configuration
+mathjax:
+  enable: true
+  input: "tex" # Use TeX input format
+  output: "html" # Render as HTML
+
+
 markdown: kramdown
 
 kramdown:
