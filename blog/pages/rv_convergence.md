@@ -64,7 +64,7 @@ Since $U$ is uniformly distributed over the interval, for each $X_n$ we have tha
 ![image info](./rv_img2.png)
 
 
-The row corresponding to $X_{10^8}$ would have a red bar so small as to be practically invisible.  The property of $X_n$ that $P(X_n \neq U)$ is decreasing in $n$ corresponds to the first property we noticed about the deterministic sequence $X_n(u)$.  Since $lim_{n \rightarrow \infty} P(X_n \neq U) = 0$ then clearly $lim_{n \rightarrow \infty} P(|X_n - U| < \epsilon) = 0$ for any $\epsilon$ and therefore $X_n$ converges to $U$ in probability.  In our visualization, as we go very far down in our table and choose rows corresponding to high values of $n$, the red bar becomes vanishingly small.
+The row corresponding to $X_{10^8}$ would have a red bar so small as to be practically invisible.  The property of $X_n$ that $P(X_n \neq U)$ is decreasing in $n$ corresponds to the first property we noticed about the deterministic sequence $X_n(u)$.  Since $lim_{n \rightarrow \infty} P(X_n \neq U) = 0$ then clearly $lim_{n \rightarrow \infty} P(\|X_n - U\| < \epsilon) = 0$ for any $\epsilon$ and therefore $X_n$ converges to $U$ in probability.  In our visualization, as we go very far down in our table and choose rows corresponding to high values of $n$, the red bar becomes vanishingly small.
 
 # $X_n$ Does Not Converge to $U$ Almost Surely
 
@@ -92,7 +92,7 @@ Our table can be a useful way to "visually prove" this using a contrapositive ar
 
 # Conclusion
 
-Convergence in probability is concerned with what happens at *specific* elements in the tail of the sequence, which we considered in our visualization by examining rows very far down in our table.  Almost sure convergence, on the other hand, is concerned with what happens for given events *across* elements in the tail of our sequence.  We explored this by considering looking at columns $u$ in our table for which the deterministic sequences $X_n(u)$ did not converge.  We only needed one table here, as for our sequence $X_n(u) \neq u \rightarrow \|X_n - U\| = 1 > \epsilon \; \forall \epsilon \in (0, 1)$.  If we were to generalize our visualization strategy, we would need a different table for each $\epsilon > 0$.
+Convergence in probability is concerned with what happens at *specific* elements in the tail of the sequence, which we considered in our visualization by examining rows very far down in our table.  Almost sure convergence, on the other hand, is concerned with what happens for given events *across* elements in the tail of our sequence.  We explored this by considering looking at columns $u$ in our table for which the deterministic sequences $X_n(u)$ did not converge.  We only needed one table here, as for our sequence $X_n(u) \neq u \rightarrow \|X_n - U\| = 1 > \epsilon$ $\forall \epsilon \in (0, 1)$.  If we were to generalize our visualization strategy, we would need a different table for each $\epsilon > 0$.
 
 # References
 
