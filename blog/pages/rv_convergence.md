@@ -92,10 +92,7 @@ Our table can be a useful way to "visually prove" this using a contrapositive ar
 
 # Conclusion
 
-Test test
-
-
-Convergence in probability is concerned with what happens at *specific* elements in the tail of the sequence, which we considered in our visualization by examining rows very far down in our table.  Almost sure convergence, on the other hand, is concerned with what happens for given events *across* elements in the tail of our sequence.  We explored this by considering looking at columns $u$ in our table for which the deterministic sequences $X_n(u)$ did not converge.  We only needed one table here, as for our sequence $X_n(u) \neq u \rightarrow |X_n - U| = 1 > \epsilon \; \forall \epsilon \in (0, 1)$.  If we were to generalize our visualization strategy, we would need a different table for each $\epsilon > 0$.
+Convergence in probability is concerned with what happens at *specific* elements in the tail of the sequence, which we considered in our visualization by examining rows very far down in our table.  Almost sure convergence, on the other hand, is concerned with what happens for given events *across* elements in the tail of our sequence.  We explored this by considering looking at columns $u$ in our table for which the deterministic sequences $X_n(u)$ did not converge.  We only needed one table here, as for our sequence $X_n(u) \neq u \rightarrow \|X_n - U\| = 1 > \epsilon \; \forall \epsilon \in (0, 1)$.  If we were to generalize our visualization strategy, we would need a different table for each $\epsilon > 0$.
 
 # References
 
