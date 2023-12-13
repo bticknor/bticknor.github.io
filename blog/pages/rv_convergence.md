@@ -48,7 +48,7 @@ As it progresses, the sequence uses a finer and finer window with which to scan 
 
 - 2) **The sequences always eventually finds any $u$ again - it therefore finds $u$ "infinitely often"**
 
-Even though the sequence finds $u$ less and less frequently, each scan that it makes covers the entire unit interval.  Therefore it will always find $u$ again, even though it will take longer and longer to do so.  We can say that $X_n$ finds $u$ "infinitely often" in the sense that there does not exist a large enough $n^*$ such that $X_n$ doesn't find $u$ for all $n > n^*$.
+Even though the sequence finds $u$ less and less frequently, each scan that it makes covers the entire unit interval.  Therefore it will always find $u$ again, even though it will take longer and longer to do so.  We can say that $X_n$ finds $u$ "infinitely often" in the sense that there does not exist a large enough $m$ such that $X_n$ doesn't find $u$ for all $n > m$.
 
 # Visualizing the Relationship Between $X_n$ and $U$
 
