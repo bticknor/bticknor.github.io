@@ -55,13 +55,13 @@ Even though the sequence finds $u$ less and less frequently, each scan that it m
 We can visualize what $X_n$ is doing in relation to $U$ by building a table (of sorts) with elements of $X_n$ as the rows and possible values of $U$ as the "columns."  Since $U$ takes an uncountable number of values, the "column" values for each row will just be the unit interval.  On each of these  intervals we highlight in red the region for which $X_n$ "finds" $U$, which is the region where $X_n \neq U$ and thus $X_n - U = 1$. This visualization nicely illustrates $X_n$'s behavior of continuously "scanning" across the unit interval with a progressively smaller window.  
 
 
-![image info](./rv_img1.png)
+![image info](./images/rv_img1.png)
 
 # $X_n$ Converges to $U$ in Probability
 
 Since $U$ is uniformly distributed over the interval, for each $X_n$ we have that $P(X_n \neq U)$ is just the length of the red bar in $X_n$'s corresponding row.  Clearly $P(X_n \neq U)$ is decreasing in $n$ - consider the row in our table corresponding to $X_{1276}$:
 
-![image info](./rv_img2.png)
+![image info](./images/rv_img2.png)
 
 
 The row corresponding to $X_{10^8}$ would have a red bar so small as to be practically invisible.  The property of $X_n$ that $P(X_n \neq U)$ is decreasing in $n$ corresponds to the first property we noticed about the deterministic sequence $X_n(u)$.  Since $lim_{n \rightarrow \infty} P(X_n \neq U) = 0$ then clearly $lim_{n \rightarrow \infty} P(\|X_n - U\| < \epsilon) = 0$ for any $\epsilon$ and therefore $X_n$ converges to $U$ in probability.  In our visualization, as we go very far down in our table and choose rows corresponding to high values of $n$, the red bar becomes vanishingly small.
