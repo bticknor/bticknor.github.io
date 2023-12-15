@@ -98,7 +98,7 @@ That formula looks familiar!
 
 ## Recovering the Discrete Case
 
-Now suppose that $X$ is a discrete random variable.  Then $X:(\Omega, F, P) \rightarrow (R, B, \mu)$ is a measurable function that maps into a *countable* range $R$.  Let's suppose that $B$ is the power set of $R$ (which is indeed a sigma algebra), and $\mu$ is the counting measure defined on $B$ (i.e. $\mu(A_i) = |A_i|$).  Then we have that the induced measure $X^{-1} \circ P$ is absolutely continuous with respect to $\mu$, and therefore by Radon-Nikodym we have that $(X^{-1} \circ P)(A_i) = \int_{A_i} f d \mu$.  You have probably guessed what $f$ is here - it's the probability mass function of $X$.  Therefore, $\int_{A_i} f d \mu = \sum_{x \in A_i} f(x)$.  Then, as above:
+Now suppose that $X$ is a discrete random variable.  Then $X:(\Omega, F, P) \rightarrow (R, B, \mu)$ is a measurable function that maps into a *countable* range $R$.  Let's suppose that $B$ is the power set of $R$ (which is indeed a sigma algebra), and $\mu$ is the counting measure defined on $B$ (i.e. $\mu(A_i) = \|A_i\|$).  Then we have that the induced measure $X^{-1} \circ P$ is absolutely continuous with respect to $\mu$, and therefore by Radon-Nikodym we have that $(X^{-1} \circ P)(A_i) = \int_{A_i} f d \mu$.  You have probably guessed what $f$ is here - it's the probability mass function of $X$.  Therefore, $\int_{A_i} f d \mu = \sum_{x \in A_i} f(x)$.  Then, as above:
 
 $$
 E[g(X)] = \sum_i c_i (X^{-1} \circ P)(A_i)
