@@ -22,7 +22,7 @@ Let's first express $E[g(X)]$ in a measure-theoretic context, where:
 
 - $X$ is a random variable mapping from a probability space $(\Omega, F, P)$ into a measurable space $(R, B)$
 
-- $g(R, B) \rightarrow (X, S)$ 
+- $g:(R, B) \rightarrow (X, S)$ 
 
 We then have:
 
