@@ -126,6 +126,6 @@ The general LOTUS is much stronger than the specific cases that we recovered as 
 
 ## References
 
-Rinaldo, A. (2018). Limit Theorems and the Standard MAchinery https://www.stat.cmu.edu/~arinaldo/Teaching/36752/S18/Notes/lec_notes_3.pdf
+Rinaldo, A. (2018). Limit Theorems and the Standard Machinery https://www.stat.cmu.edu/~arinaldo/Teaching/36752/S18/Notes/lec_notes_3.pdf
 
 
