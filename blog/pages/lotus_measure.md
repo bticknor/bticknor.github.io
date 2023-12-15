@@ -44,7 +44,7 @@ $$ = \sum_i \int_{\{\omega \in F | X(\omega) \in A_i\}} c_i dP$$
  
 $$ = \sum_i c_i P(\{\omega \in F | X(\omega) \in A_i\})$$
  
-Let's think for a second about $P(\{\omega \in F | X(\omega) \in A_i\})$.  This is the probability of the set that $X$ maps to $A_i$. We can express this using the  **pushforward measure** $X^{-1} \circ P$ on $B$, which just measures $A_i$ using the probability of the set in $\Omega$ that $X$ sends to it:
+Let's think for a second about $P(\{\omega \in F \| X(\omega) \in A_i\})$.  This is the probability of the set that $X$ maps to $A_i$. We can express this using the  **pushforward measure** $X^{-1} \circ P$ on $B$, which just measures $A_i$ using the probability of the set in $\Omega$ that $X$ sends to it:
 
 $$ = \sum_i c_i (X^{-1} \circ P)(A_i)$$
 
