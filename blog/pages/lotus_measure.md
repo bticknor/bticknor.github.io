@@ -76,9 +76,9 @@ Notice that a random variable $X$ is just a measurable function (with no other s
 
 We have proved the general LOTUS.  However, it is *so* general that it looks quite dissimilar to the continuous random variable LOTUS stated above. How can we recover the specific continuous case from the more general case?
 
-An obvious first step is to take the assumptions about $X$ that are baked into the continuous case and express them in the measure theoretic context.  We assumed that $X$ was a real valued continuous random variable, so we can say that: $X:(\Omega, F, P) \rightarrow (R, B, \lambda)$ where we now fix $R$ as the real numbers, $B$ as the Borel sigma algebra of $\mathbb{R}$, and $\lambda$ as the Lebesque measure.  We are also assuming via the "continuous" designation that the distribution of $X$ - a.k.a. the pushforward measure $X^{-1} \circ P$ on $\mathbb{R}$ - is *absolutely continuous* with respect to the ("reference measure") $\lambda$.  This just means that $\lambda(b) = 0 \implies (X^{-1} \circ P)(b) = 0$ for any $b \in B$.
+An obvious first step is to take the assumptions about $X$ that are baked into the continuous case and express them in the measure theoretic context.  We assumed that $X$ was a real valued continuous random variable, so we can say that: $X:(\Omega, F, P) \rightarrow (R, B, \lambda)$ where we now fix $R$ as the real numbers, $B$ as the Borel sigma algebra of $\mathbb{R}$, and $\lambda$ as the Lebesque measure.  We are also assuming via the "continuous" designation that the distribution of $X$ - a.k.a. the pushforward measure $X^{-1} \circ P$ on $R$ - is *absolutely continuous* with respect to the ("reference measure") $\lambda$.  This just means that $\lambda(b) = 0 \implies (X^{-1} \circ P)(b) = 0$ for any $b \in B$.
 
-These specifications and assumptions allow us to do a little bit more with the pushforward measure $X^{-1} \circ P$ of $X$.  Namely, the **Radon-Nikodym** theorem tells us that due to the absolute continuity of the pushforward measure with respect to $\lambda$, there exists a measurable function $f: \mathbb{R} \rightarrow \mathbb{R}$ such that:
+These specifications and assumptions allow us to do a little bit more with the pushforward measure $X^{-1} \circ P$ of $X$.  Namely, the **Radon-Nikodym** theorem tells us that due to the absolute continuity of the pushforward measure with respect to $\lambda$, there exists a measurable function $f: R \rightarrow \mathbb{R}$ such that:
 
 $$
 (X^{-1} \circ P)(A_i) = \int_{A_i} f d\lambda
@@ -92,7 +92,7 @@ $$E[g(X)] = \sum_i c_i (X^{-1} \circ P)(A_i)$$
 
 $$= \sum_i c_i \int_{A_i} f d\lambda $$
 
-$$ = \sum_i \int_{A_i} c_i f d\lambda = \int_{\mathbb{R}} g f d\lambda = \int_{\mathbb{R}} g(x) f_X(x) dx $$
+$$ = \sum_i \int_{A_i} c_i f d\lambda = \int_{R} g f d\lambda = \int_{R} g(x) f_X(x) dx $$
 
 That formula looks familiar!
 
