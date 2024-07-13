@@ -1,6 +1,6 @@
 # Random Topics in Probability and Statistics
 
-I occaisonally use these vignettes for reference - I hope they are useful if you stumble across them!
+I occasionally use these vignettes for reference - if you stumble across them I hope you find them useful!
 
 ## [Convergence in Probability vs. Almost Sure Convergence](pages/rv_convergence.md)
 
