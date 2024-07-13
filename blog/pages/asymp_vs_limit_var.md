@@ -31,7 +31,7 @@ $$
 \sqrt{n} (\frac{1}{\bar{X}_n} - \frac{1}{\mu}) \rightarrow^d N(0, \frac{\sigma^2}{\mu^4})
 $$
 
-The intuition behind why the asymptotic variance gives us something finite in this case is that for $\mu \neq 0$, the probability that $\bar{X}_n$ falls in a neighborhood around $0$ becomes vanishingly small for large values of $n$.  Therefore, taking the limit before the computing the variance allows us to ``get to'' a distribution with a finite second moment before we actually compute the variance.  The asymptotic approximation is practically much more useful.
+The intuition behind why the asymptotic variance gives us something finite in this case is that for $\mu \neq 0$, the probability that $\bar{X}_n$ falls in a neighborhood around $0$ becomes vanishingly small for large values of $n$.  Therefore, taking the limit before the computing the variance allows us to "get to" a distribution with a finite second moment before we actually compute the variance.  The asymptotic approximation is practically much more useful.
 
 ## References
 
