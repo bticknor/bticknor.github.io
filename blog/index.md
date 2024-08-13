@@ -8,3 +8,5 @@
 
 ### [Asymptotic vs. Limiting Variance](pages/asymp_vs_limit_var.md)
 
+### [Sigma Fields Cannot be Countably Infinite](pages/sigma_field_cardinality.md)
+
