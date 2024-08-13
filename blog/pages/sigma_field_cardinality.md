@@ -14,12 +14,14 @@ $$
 
 We see that this function maps each element of $X$ to a countable intersection of elements of $S$, and so $f:X \rightarrow S$.  We proceed with a lemma.
 
+---
 
 **Lemma**: If $f(x) \cap f(y) \neq \emptyset$, then $f(x) = f(y)$.
 
 
 **Proof**: Suppose that $x, y \in X$ with $x \neq y$, and that $f(x) \cap f(y) \neq \emptyset$.  Let $C = f(x) \cap f(y)^c$, and notice that $C \in S$.  If we assume that $x \notin f(y)$, then $C \subset f(x)$ is a smaller set than $f(x)$ in $S$ that contains $x$.  This contradicts the definition of $f$, and therefore it must be that $x \in f(y)$.  It follows that $f(x) \subseteq f(y)$ - if there were some $z$ such that $z \in f(x)$ and $z \notin f(y)$, this would imply that there is a set $A_i \in S$ containing $x$ but not $z$, which contradicts the definition of $f(x)$.  A symmetric argument yields that $f(y) \subseteq f(x)$, and so $f(x) = f(y)$.  Therefore $f(x) \cap f(y) \neq \emptyset \implies f(x) = f(y)$.
 
+---
 
 Let $B = f(X)$, the image of $X$ under $f$.  Notice that we can express $S$ using $B$: $A_i = \cup_{x \in A_i} f(x) = \cup_{\theta_i} B_{\theta_i}$.  Therefore, if we assume that $B$ is finite, then there are at most $2^{\|B\|}$ possibilities for any given $A_i$ and so $S$ is finite.  If we instead assume that $B$ is uncountably infinite, then since $B \subset S$ we have that $S$ is uncountably infinite.  Therefore it must be that $B$ is countably infinite.
 
