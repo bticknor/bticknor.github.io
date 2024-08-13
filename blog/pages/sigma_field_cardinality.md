@@ -6,7 +6,7 @@ This is a classic result from measure theory, but the proofs that I have been ab
 
 **Theorem**: A sigma field cannot be countably infinite, it must be either finite or have an uncountably large cardinality.
 
-**Proof**: Let $X$ be a set and $S$ be a sigma field over $X$.  If $X$ is finite, then the cardinality of the power set of $X$ is $2^{\|X\|}$, and it must be that $\|S\| < 2^{\|X\|}$ and is therefore finite.  Assume therefore that $X$ is not finite, and suppose for the sake of contradiction that $S$ is countably infinite.  Then we can write $S = {A_i}_{i \in \mathbb{N}}$.  Define the following function:
+**Proof**: Let $X$ be a set and $S$ be a sigma field over $X$.  If $X$ is finite, then the cardinality of the power set of $X$ is $2^{\|X\|}$, and it must be that $\|S\| < 2^{\|X\|}$ and is therefore finite.  Assume therefore that $X$ is not finite, and suppose for the sake of contradiction that $S$ is countably infinite.  Then we can write $S = {A_i}$ for $i \in \mathbb{N}$.  Define the following function:
 
 $$
     f(x) = \cap_{A_i: x \in A_i} A_i
