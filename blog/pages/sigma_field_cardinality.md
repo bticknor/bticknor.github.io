@@ -2,6 +2,7 @@
 
 This is a classic result from measure theory, but the proofs that I have been able to find online up to this point are a little terse and hard to follow (in my opinion).  Therefore, here is a meticulous (read: too long and wordy) proof of the result.
 
+---
 
 **Theorem**: A sigma field cannot be countably infinite, it must be either finite or have an uncountably large cardinality.
 
